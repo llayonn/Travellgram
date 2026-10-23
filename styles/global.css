@@ -1,5 +1,8 @@
-* :root { margin: 0; padding: 0;box-sizing:border-box;}
-:root {
+
+*:root {margin: 0; padding: 0;box-sizing:border-box;}
+
+ :root {
+  
   --brand-color:#EF5F4C;
   --background-color: #FFFFFF;
   --surface-color: #F5F5F5;
@@ -18,6 +21,7 @@
 
   }
   body {
+    margin: 0; padding: 0;box-sizing:border-box;
     color: var(--text-color-secondary);
 background-color: var(--background-color);
   }
